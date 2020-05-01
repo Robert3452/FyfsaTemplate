@@ -53,6 +53,40 @@ ul {
 label {
   margin: 0;
 }
+/* INICIO Trademarks estilo creado */
+.section-title{
+	text-align: center;
+	font-weight: bold;
+	font-size: 2.5em;
+	margin:20px auto;
+}
+.trademarks{
+	display: flex;
+	width: 90%;
+	margin: 0px 0 40px 0;
+	margin-right: auto;
+	flex-wrap: wrap; 
+	margin-left: auto;
+	justify-content: space-between;
+	align-items: center;
+}
+.trademarks-item{
+	/* width:calc(100%/13); */
+	width: 60px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.trademarks-item img{
+	object-fit: contain;
+	width: 100%;
+
+	max-height: 100%;
+}
+
+/* FIN Trademarks estilo creado */
+
+
 .services-bottom{
 	max-height: 487px!important;
 }
@@ -1673,12 +1707,12 @@ section.slider {
 ul.icon li {
   display: inline-block;
 }
-.servicegrids p {
+/* .servicegrids p {
   color: #636363;
   font-size: 15px;
   line-height: 28px;
   margin: 1em 0;
-}
+} */
 .icon i.fa {
   font-size: 30px;
   margin-right: 1em;
@@ -1688,19 +1722,85 @@ ul.icon li {
   margin-bottom: 4em;
   margin-top: 2em;
 }
-.servicegrid1 h4 {
+
+/* INICIO SERVICE */
+.servicegrids ul {
+	width: 80%;
+	margin:10px auto;
+	padding-bottom: 20px;
+}
+.servicegrids li {
+	font-size: .65em;
+	color: #fff;
+	list-style: symbols("-");
+}
+.servicegrids p {
+	font-size: 11px;
+	margin-top:10px;
+	text-align: center;
+	color: #fff;
+	padding:0 10px;
+}
+.image-service img{
+	width: 100%;
+}
+.detail-service h5,
+.detail-service-h h5 {
+	margin-top:30px;
+	font-size: 1.2em;
+	text-align:center;
+	color: rgb(248, 176, 66);
+	text-transform: uppercase;
+	font-weight: 700;	
+}
+.my-4{
+	margin:40px 0 ;
+}
+.horizontal-service{
+	width:93.65%;
+	margin: auto;
+	background-color:black!important;
+	display: flex;
+	
+
+}
+.img-service-h{
+	width:50%;
+	
+}
+.detail-service-h{
+	width:50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.img-service-h img{
+	width: 100%;
+}
+.serviceitem{
+	width:80%;
+	height: 450px;
+	min-width:280px ;
+	margin:0 auto;
+	background-color: #000;
+	padding-right: 0;
+	padding-left: 0;
+}
+/* FIN SERVICE */
+/* .servicegrid1 h4 {
   color: #23b684;
   font-size: 24px;
   text-transform: uppercase;
   letter-spacing: 0px;
   position: relative;
-}
-.servicegrid1 h5 {
+} */
+/* .servicegrid1 h5 {
   color: #d4d4d4;
   font-size: 90px;
   position: absolute;
   top: -50px;
-}
+} */
 /* //services */
 /* services bottom */
 .Servicebottom {
@@ -2045,6 +2145,7 @@ ol {
 h2.typoh2 {
   margin: 0 0 10px;
 }
+
 @media (max-width: 768px) {
   .grid_5 {
     padding: 0 0 1em;
