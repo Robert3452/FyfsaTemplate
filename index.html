@@ -145,7 +145,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 											<form action="mailing.php" method="post">
 												<input type="text" class="email" name="name" placeholder="Nombres"
 													required="">
-												<input type="tel" class="tel" name="tel" placeholder="Teléfono"
+												<input type="tel" maxlength="9" class="tel" name="tel" placeholder="Teléfono"
 													required="">
 												<input type="email" class="email" name="email" placeholder="Correo"
 													required="">
@@ -839,6 +839,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			});
 		});
 	</script>
+	<script src="./js/validation.js"></script>
 	<!-- //FlexSlider-JavaScript -->
 
 	<!-- //js-scripts -->
