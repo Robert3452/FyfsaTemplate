@@ -51,7 +51,7 @@ label {
   margin: 0;
 }
 /* INICIO Trademarks estilo creado */
-.section-title {
+.section-title h3 {
   text-align: center;
   font-weight: bold;
   font-size: 2.5em;
@@ -623,8 +623,8 @@ a.navbar-brand span {
   text-indent: -9999px;
   overflow: hidden;
   text-decoration: none;
-  height: 47px;
-  width: 47px;
+  height: 42px;
+  width: 42px;
 }
 .callbacks_nav.next {
   left: auto;
@@ -1032,7 +1032,7 @@ button.close {
   letter-spacing: 0.5px;
 }
 .bannerbottomright h4 {
-  font-size: 14px;
+  font-size: 15px;
   margin: 0.5em 0 0;
   color: #444;
   text-transform: capitalize;
@@ -1106,7 +1106,7 @@ button.close {
   margin-bottom: 1em;
 }
 .flex-active-slide p {
-  line-height: 20px;
+  line-height: initial;
   color: #fff;
   font-style: italic;
   letter-spacing: 2px;
@@ -1707,12 +1707,13 @@ ul.icon li {
   margin-bottom: 20px;
 }
 .servicegrids li {
-  font-size: 0.8em;
+  font-size: 1 em;
   color: #fff;
+  letter-spacing: 1px;
   list-style: symbols("-");
 }
 .servicegrids p {
-  font-size: 12px;
+  font-size: 1.2em;
   margin-top: 10px;
   text-align: center;
   color: #fff;
@@ -1721,10 +1722,10 @@ ul.icon li {
 .image-service img {
   width: 100%;
 }
-.detail-service h5,
-.detail-service-h h5 {
+.detail-service h4,
+.detail-service-h h4 {
   margin-top: 30px;
-  font-size: 1.2em;
+  font-size: 1.5em;
   text-align: center;
   color: rgb(248, 176, 66);
   text-transform: uppercase;
@@ -1753,8 +1754,8 @@ ul.icon li {
   width: 100%;
 }
 .serviceitem {
-  width: 80%;
-  height: 480px;
+  width: 85%;
+  min-height: 600px;
   min-width: 280px;
   margin: 0 auto;
   background-color: #000;
@@ -2696,7 +2697,7 @@ img.zoom-img:hover,
   }
 
   .bannerbottomright h4 {
-    font-size: 12px;
+    font-size: 14px;
   }
   .clients {
     padding: 6em 6em 6em 8em;
@@ -2744,7 +2745,7 @@ img.zoom-img:hover,
     padding: 3em 2em 0em 3em;
   }
   .bannerbottomright h4 {
-    font-size: 12px;
+    font-size: 14px;
   }
   .services-bottom {
     padding: 5em 6em 5em 4em;
@@ -2823,7 +2824,7 @@ img.zoom-img:hover,
     height: 10px;
   }
   .bannerbottomright h4 {
-    font-size: 11px;
+    font-size: 12px;
   }
   #video img,
   #video iframe {
@@ -3187,7 +3188,7 @@ img.zoom-img:hover,
   div#bs-example-navbar-collapse-1 {
     position: absolute;
     z-index: 999;
-    top:100%;
+    top: 100%;
     width: 100%;
     text-align: center;
     background: #000;
@@ -3451,7 +3452,7 @@ img.zoom-img:hover,
     right: 68.5%;
   }
   .bannerbottomright h4 {
-    font-size: 10px;
+    font-size: 12px;
   }
   .bannerbottomright i.fa {
     width: 30px;
@@ -3526,7 +3527,7 @@ img.zoom-img:hover,
     padding: 2em 2em;
   }
   .bannerbottomright h4 {
-    font-size: 8px;
+    font-size: 12px;
   }
   .wthree_team_grid {
     width: 100%;
@@ -3672,6 +3673,6 @@ img.zoom-img:hover,
 
 @media (max-width: 650px) {
   .long-title {
-    height:70px;
+    height: 70px;
   }
 }
